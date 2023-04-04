@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Roboto Slab", serif;
+  font-family: "Rubik Mono One", sans-serif;
+  font-family: "Trispace", sans-serif;
+}
+body {
+  background: #0e0e10;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(Images/cloud.jpg);
+  background-size: cover;
+}
+
+.sub-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 100px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 5vh;
+}
+
+.my-link {
+  padding: 4px 35px;
+  background: none;
+  border: 1px solid rgb(51, 161, 137);
+  text-decoration: none;
+  color: rgb(51, 161, 137);
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-solid {
+  margin-left: 5px;
+}
+
+input {
+  display: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+/*projects*/
+.container {
+  margin-top: 5vh;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1,
+p {
+  font-size: 20px;
+}
+
+.container h2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.div {
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.div-rev {
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.div img,
+.div-rev img {
+  width: 50%;
+  height: auto;
+  border: 0.5px solid white;
+}
+
+#pro1,
+#pro3 {
+  margin-left: 50px;
+}
+
+#pro2 {
+  margin-right: 50px;
+}
+
+.fa-github {
+  margin-top: 5vh;
+  font-size: 25px;
+}
+
+.fa-github:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 1100px) {
+  .div,
+  .div-rev {
+    display: flex;
+    flex-direction: column;
+  }
+  .div img,
+  .div-rev img {
+    width: 150%;
+    height: 150%;
+  }
+  #pro1,
+  #pro2,
+  #pro3 {
+    margin: 0;
+    padding: 20px;
+  }
+  .div-rev {
+    flex-direction: column;
+  }
+}
