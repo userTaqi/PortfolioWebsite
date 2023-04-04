@@ -114,6 +114,8 @@ p {
 .div-rev img {
   width: 50%;
   height: auto;
+  border: 0.1px solid white;
+  border-radius: 10px;
 }
 
 #pro1,
@@ -139,6 +141,7 @@ p {
   .div-rev {
     display: flex;
     flex-direction: column;
+    background: #1f1f23;
   }
   .div img,
   .div-rev img {
@@ -149,7 +152,7 @@ p {
   #pro2,
   #pro3 {
     margin: 0;
-    padding: 20px;
+    margin-top: 20px;
   }
   .div-rev {
     flex-direction: column;
