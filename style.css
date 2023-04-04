@@ -114,8 +114,6 @@ p {
 .div-rev img {
   width: 50%;
   height: auto;
-  border: 0.1px solid white;
-  border-radius: 10px;
 }
 
 #pro1,
@@ -147,6 +145,8 @@ p {
   .div-rev img {
     width: 150%;
     height: 150%;
+    border: 0.1px solid white;
+    border-radius: 10px;
   }
   #pro1,
   #pro2,
